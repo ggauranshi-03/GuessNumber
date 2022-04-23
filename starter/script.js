@@ -9,7 +9,7 @@ document.querySelector('.again').addEventListener('click', function () {
   score = 20;
   secnumber = Math.trunc(Math.random() * 20) + 1;
   document.querySelector('body').style.backgroundColor = '#222';
-  message('Start Guessing...');
+  message('Start Guessing..');
 
   document.querySelector('.score').textContent = score;
   document.querySelector('.number').textContent = '?';
